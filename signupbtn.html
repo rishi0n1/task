@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        body{
+            background-color: rgb(134, 149, 154);
+           
+        }
+    </style>
+</head>
+<body>
+    <center><h2>Signup</h2></center>
+    <fieldset>
+    <legend>SIGN UP</legend>
+    
+    <form>
+       <label for="firstname">firstname:</label>
+       <input type="text" name="firstname" id="firstname"  placeholder="ex:jhon">
+       <label for="surname">surname:</label>
+       <input type="text" name="surname" id="surname:" required placeholder="ex:wiki"><br>
+       <label for="gender">gender:</label>
+       <input type="radio" name="gender" id="male">male
+       <input type="radio" name="gender" id="female">female
+       <input type="radio" name="gender" id="other">other<br><br>
+       <label for="dob">DOB</label>
+       <input type="datetime-local"><br>
+       <label for="mail">email:</label>
+       <input type="mail" name="email" id="mail" placeholder="ex:jdnhffh@email"><br>
+       <label for="number">phn number:</label>
+       <input type="text" name="number" id="number" pattern="[0-9]{10}" placeholder="123245678"><br>
+       <input type="button" value="signup" formaction="../html/success.html">
+       
+    </form>
+</body>
+</html>
